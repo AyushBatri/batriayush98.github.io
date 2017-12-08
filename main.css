@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+html{
+	
+	
+}
+
+#head{
+	position: fixed;
+	background-color: white;
+}
+nav{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	opacity: 0.75;
+	color: black;
+	z-index: 1;
+}
+ a:hover{
+	opacity: 1;
+
+}
+header{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 100px 10px;
+	animation: 1s fadein 0.5s forwards;
+	opacity: 0;
+	margin-bottom: 10px;
+	
+}
+@keyframes fadein{
+	100%{
+		opacity:1;
+
+	}
+}
+
+a.btn{
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #3f51b5;
+	opacity: 1;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+header h2{
+	font-family: "Quicksand", sans-seirif;
+}
+header nav{
+	display: flex;
+	margin-right: -15px;
+}
+header nav li{
+	margin: 0 15px ;
+}
+
+
+/*Hero Style*/
+
+.hero{
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+}
+.hero h1{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-size: 66px;
+	font-weight: normal;
+	font-family: "Open-Sans", sans-seirif;
+	color: black;
+}
+.hero h4{
+	font-weight: normal;
+	font-family: "Quicksand", sans-seirif;
+	font-size: 20px;
+	margin-bottom: 40px; 
+	color:black;
+
+}
+
+.hero .background{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 97%;
+	z-index: -1;
+	background-color: #80a3db;
+	background-size: cover;
+}
+
+.hero a.btn{
+	padding: 20px 46px;
+
+}
+
+.hero-content-area{
+	margin-top:100px;
+	padding-top: 150px;
+}
+
+/* About page properties*/
+.about{
+	color:black;
+}
+
+.about h1{
+	color: rgb(0, 0, 153);
+	font-size: 50px;
+}
+.about p{
+	font-size: 20px;
+	line-height: 25px;
+	word-spacing: 15px
+
+}
+.about h2{
+	font-size: 40px;
+}
+.reason{
+float: left;
+display: inline;
+padding-top: : 20px;
+padding-right: 30px;
+padding-left: 30px;
+padding-bottom: 5px;
+margin-top:30px  ;
+
+}
+.reason img{
+	border-image: 2px;
+	border-color: blue;
+	height: 150px;
+	width:200px; 
+}
+.reason p{
+	color:rgb(0, 0, 153);
+	padding-top: 25px;
+	padding-left: 30px;
+}
+.services h1{
+	color: rgb(0, 0, 153);
+	font-size: 50px;
+
+}
+
+.services p{
+	font-size: 20px;
+	line-height: 25px;
+	word-spacing: 15px
+}
+
+
+
+
+
+
